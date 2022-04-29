@@ -1,0 +1,175 @@
+@import "_reset.css";
+/*  Color palette
+    -----------------------
+    color       HEX code  RGB code
+    -------------------------------------
+    red:      	#960001	  rgb(150,0,1)
+    yellow:     #e2e55f	  rgb(226,229,95)
+    green:      #96c25f	  rgb(150,194,95)
+    blue:       #5582c6	  rgb(85,130,198)
+    purple: 	  #79519f	  rgb(121,81,159) 
+
+    fonts
+    -----------------------
+    headings:   Cabin
+    body:       Roboto
+
+    font-sizes:
+    -----------------------
+    h1:   70px
+    h2:   36px
+    h3    24px
+    body: 17px (all other text)
+
+    breakpoints
+    -----------------------
+    desktop: 1200px
+    
+    max-width of the content is 1400px
+*/
+
+/* Add all of your styles here */
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-img {
+          width: 1420px;
+          height: 420px;
+          object-position: top;
+          object-fit: cover;
+        }
+
+        .poster-img {
+          width: 250px;
+          position: absolute;
+          margin-top: 200px;
+          margin-left: 100px; 
+          top: 50px;
+          left: 50px;
+        }
+
+        header {
+          padding: 200px;
+        }
+
+        p {
+          color: white;
+          font-size: 20px;
+          float: top left;
+          line-height: 25px;
+          font-family: "Roboto";
+          background-color: #5582c6;
+
+        }
+
+        .woodyquote {
+          color: red;
+          font-size: 20px;
+        }
+
+        body {
+          background-color: #5582c6;
+          max-width: 1200px;
+        }
+
+      .toprow {
+          padding-left: 150px;
+          padding-top: 180px;
+          width: 1200px;
+        }
+
+        h1, h2, h3 {
+          color: #960001;
+          font-family: "Cabin";
+          font-weight:bold;
+          margin-top: 10px;
+          background-color: #5582c6;
+        }
+
+        h1 {
+          font-size: 60px;
+          padding: 20px;
+          background: white;
+          width: 300px;
+          height: 60px;
+          float: left;
+          margin-left: 440px;
+        }
+
+        h2 {
+          font-size: 30px;
+          padding-top: 40px;
+        }
+
+        h3 {
+          font-size: 24px;
+        }
+        
+        .yellowbox {
+          font-size: 22px;
+           color: #960001;
+            padding: 30px;
+            background: #e2e55f;
+            width: 1150px;
+            height: 30px;
+            float: left;
+            margin-top: 20px;
+        }
+
+        .line {
+          border-bottom: 2px solid #96c25f;
+          display: block;
+          margin-top: 10px;
+          margin-bottom: 25px;
+        }
+
+        .lineyellow {
+          border-bottom: 20px solid #e2e55f;
+          display: block;
+          margin-bottom: 25px;
+        }
+
+        a {
+          color: #e2e55f;
+        }
+
+        a:visited {
+          color:blue;
+        }
+
+        .column {
+          float: left;
+          width: 50%;
+        }
+
+        .profile-img {
+          width: 150px;
+          height: auto; 
+          float: left;
+          padding-top: 10px;
+          padding-right: 20px;
+        }
+
+       .profile-img:hover {
+           animation: fadeIn 5s;
+       }
+
+       @keyframes fadeIn {
+        25% {opacity:0;}
+        100% {opacity:1;}
+       }
+
+        input, button {
+          margin-top: 5px;
+          padding-top: 10px;
+        }        
+
+        footer {
+          margin-bottom: 150px;
+        }
+
+
+    </style>
